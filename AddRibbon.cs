@@ -65,9 +65,9 @@ namespace Sample
             RibbonButton ribButtonBlockLoad = new RibbonButton();
             ribButtonBlockLoad.Text = "加载块";
             ribButtonBlockLoad.ShowText = true;
-            ribButtonBlockLoad.LargeImage = GetBitmapImage("D:\\Projects\\AutoCAD\\Code\\MyProject\\image\\block.png");
+            //ribButtonBlockLoad.LargeImage = GetBitmapImage("D:\\Projects\\AutoCAD\\Code\\MyProject\\image\\block.png");
             //ribButtonBlockLoad.LargeImage = GetBitmapImage(@".\image\\block.png");
-            ribButtonBlockLoad.ShowImage = true;
+            //ribButtonBlockLoad.ShowImage = true;
 
             //pay attention to the SPACE after the command name
             ribButtonBlockLoad.CommandParameter = "DrawCircle ";
@@ -103,7 +103,7 @@ namespace Sample
             RibbonButton ribButtonPrint = new RibbonButton();
             ribButtonPrint.Text = "打印图层";
             ribButtonPrint.ShowText = true;
-            ribButtonPrint.Image = GetBitmapImage("D:\\Projects\\AutoCAD\\Code\\MyProject\\img\\print_32.png");
+            //ribButtonPrint.Image = GetBitmapImage("D:\\Projects\\AutoCAD\\Code\\MyProject\\img\\print_32.png");
             //BitmapImage bmi = new BitmapImage(new Uri("D:\\Projects\\AutoCAD\\Code\\MyProject\\img\\printer.png"));
             //double i = bmi.Width;
             //double j = bmi.Height;
