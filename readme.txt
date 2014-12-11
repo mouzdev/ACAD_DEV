@@ -1,0 +1,1 @@
+line1 : this is used to test the commit from another directory.
